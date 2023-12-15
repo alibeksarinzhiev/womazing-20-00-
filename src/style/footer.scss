@@ -1,0 +1,78 @@
+.footer{
+  margin-top: 200px;
+  padding:30px 0 74px;
+  background: #F1EADC;
+  &__img{
+    background-image: url("../img/visa-mastercard 1.png");
+    width: 68px;
+    height: 22px;
+    flex-shrink: 0;
+    margin: 15px 0 0 0 ;
+  }
+
+  &__text{
+    font-weight: 300;
+    font-size: 12px;
+    text-align: center;
+    color: #252525;
+    margin-top: 50px;
+  }
+  &__row{
+    display: flex;
+    justify-content: center;
+    column-gap: 150px;
+  }
+  &__list1{
+    display: flex;
+    align-items: center;
+    column-gap: 12px;
+    margin: 0 0 39px 0;
+
+  }
+  &__list{
+    display: flex;
+    flex-direction: column;
+    row-gap: 11px;
+
+
+    &-title{
+      color: #000;
+      font-size: 15px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 140%;
+      letter-spacing: 0.3px;
+    }
+
+  }
+
+  &__item{
+    color: #000;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+    letter-spacing: 0.26px;
+    margin: 73px 0 0 0;
+
+
+  }
+  &__item1{
+    display: flex;
+    align-items: center;
+    column-gap: 12px;
+    margin: 31px 0 0 0;
+  }
+  &__item2{
+    color: #000;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+    letter-spacing: 0.3px;
+  }
+
+  .icon-instagram, .icon-telegram{
+    color: #E0BEA2;
+  }
+}
