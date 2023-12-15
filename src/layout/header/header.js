@@ -1,11 +1,4 @@
 import React from 'react';
-<<<<<<< HEAD
-
-const Header = () => {
-    return (
-        <header className='header'>
-            <h1>Header</h1>
-=======
 import style from '../../style/header.css'
 
 const Header = () => {
@@ -49,7 +42,6 @@ const Header = () => {
 </span>
                 <p>+7 (495) 823-54-12</p>
             </div>
->>>>>>> bc42202 (footer header)
         </header>
     );
 };

@@ -1,12 +1,4 @@
 import React from 'react';
-<<<<<<< HEAD
-
-const Footer = () => {
-    return (
-        <footer className='footer'>
-            <h1>Footer</h1>
-        </footer>
-=======
 import style from '../../style/footer.scss'
 import '../../img/visa-mastercard 1.png'
 const Footer = () => {
@@ -84,7 +76,6 @@ const Footer = () => {
                     </ul>
                 </div>
             </div>        </footer>
->>>>>>> bc42202 (footer header)
     );
 };
 
