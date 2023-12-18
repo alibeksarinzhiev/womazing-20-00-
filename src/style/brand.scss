@@ -1,0 +1,123 @@
+.brand{
+  &__line1{
+    height: 210px;
+  }
+  &__line2{
+    height: 250px;
+  }
+  &__title{
+    color: #000;
+    font-family: Raleway, sans-serif;
+    font-size: 55px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 110%; /* 60.5px */
+    letter-spacing: 1.1px;
+  }
+  &__nav{
+    display: flex;
+    padding-top: 30px;
+  }
+  &__pishka1{
+    color: #000;
+    font-family: Raleway, sans-serif;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 140%; /* 23.8px */
+    letter-spacing: 0.34px;
+  }
+  &__pishka2{
+    color: #909090;
+    font-family: Raleway, sans-serif;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 140%; /* 23.8px */
+    letter-spacing: 0.34px;
+  }
+  &__span{
+    padding: 2px 10px 0;
+  }
+}
+.BrandDesc{
+  &__box1 {
+    display: flex;
+    align-items: center;
+  }
+  &__box2{
+    display: flex;
+    align-items: center;
+  }
+  &__box3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  &__line0{
+    height: 150px;
+  }
+  &__line1{
+    width: 200px;
+  }
+  &__line2{
+    width: 240px;
+  }
+  &__btn{
+    border-radius: 1px;
+    border: none;
+    padding: 22px 50px;
+    cursor: pointer;
+    background: #6E9C9F;
+    color: #FFF;
+    text-align: center;
+    font-family: Raleway, sans-serif;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 138.9%; /* 23.613px */
+    letter-spacing: 0.34px;
+  }
+}
+.BrandDescription1{
+  &__title{
+    padding-bottom: 60px;
+    color: #000;
+    font-family: Raleway, sans-serif;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 140%; /* 35px */
+    letter-spacing: 0.5px;
+  }
+  &__desc{
+    color: #000;
+    font-family: Raleway, sans-serif;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 140%; /* 23.8px */
+    letter-spacing: 0.34px;
+  }
+}
+.BrandDescription2{
+  &__title{
+    color: #000;
+    font-family: Raleway, sans-serif;
+    padding-bottom: 60px;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 140%; /* 35px */
+    letter-spacing: 0.5px;
+  }
+  &__desc{
+    color: #000;
+    font-family: Raleway, sans-serif;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 140%; /* 23.8px */
+    letter-spacing: 0.34px;
+  }
+}
