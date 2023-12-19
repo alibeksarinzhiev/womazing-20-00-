@@ -17,10 +17,10 @@ const Header = () => {
                 </svg>
                 </h1>
             <ul className="header__ul">
-                <li className="header__li"><a className="header__a" href="">Главная</a></li>
-                <li className="header__li"><a className="header__a" href="">Магазин</a></li>
-                <li className="header__li"><a className="header__a" href="">О бренде</a></li>
-                <li className="header__li"><a className="header__a" href="">Контакты</a></li>
+                <li className="header__li"><a className="header__a" href="../../">Главная</a></li>
+                <li className="header__li"><a className="header__a" href="../../shop">Магазин</a></li>
+                <li className="header__li"><a className="header__a" href="../../brand">О бренде</a></li>
+                <li className="header__li"><a className="header__a" href="../../contacts">Контакты</a></li>
             </ul>
                 <div className="header__all">
                     <h3 className="header__tel"><svg width="17" height="17" viewBox="0 0 17 17" fill="none" xmlns="http://www.w3.org/2000/svg">
