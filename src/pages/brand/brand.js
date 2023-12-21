@@ -76,7 +76,7 @@ const Brand = () => {
 
                     </div>
                     <div className="BrandDesc__box3">
-                        <button className='BrandDesc__btn'>Перейти в магазин</button>
+                        <a className='BrandDesc__btn-A' href="../../shop"><button className='BrandDesc__btn'>Перейти в магазин</button></a>
                     </div>
                     <div className="BrandDesc__line0">
 

@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useState} from 'react';
 import homeImg1 from "../../img/dmitriy-7DD6tfTKqS4-unsplash 1.png"
 import homeImg2 from "../../img/ionut-comanici-RDcEWH5hSDE-unsplash 1.png"
 import homeImg3 from "../../img/allef-vinicius-YG97wpX0OEg-unsplash 1.png"
@@ -12,6 +12,8 @@ import homeQuaIcon3 from "../../img/hand 1.png"
 import homeWmImg from "../../img/adam-winger-fI-TKWjKYls-unsplash 1.png"
 
 const Home = () => {
+
+
     return (
         <div className='homePage'>
         <section className='home'>
@@ -32,7 +34,7 @@ const Home = () => {
 <path d="M33 20V48M33 48L26 40.8108M33 48L40 40.8108" stroke="#6E9C9F"/>
 </svg>
 </span>
-                            <button className='home__logo-btn'>Открыть магазин</button>
+                            <a className='home__logo-btnA' href="../../shop"><button className='home__logo-btn'>Открыть магазин</button></a>
                         </div>
                         <div className="home__logo-rects">
                             <span className='home__logo-rect'><svg width="30" height="4" viewBox="0 0 30 4" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -88,7 +90,7 @@ const Home = () => {
 
                     </div>
                     <div className="homeProducts__btns">
-                        <button className='homeProducts__btn'>Открыть магазин</button>
+                        <a className='homeProducts__btnsA' href="../../shop"><button className='homeProducts__btn'>Открыть магазин</button></a>
                     </div>
                     <div className="homeProducts__line3">
 
@@ -176,11 +178,47 @@ const Home = () => {
                                 которые выгодно <br/>
                                 подчеркивают достоинства <br/>
                                 каждой девушки.</p>
-                            <p className='homeWm__box-pishka'>Подробнее о бренде</p>
+                            <a className='homeWm__box-pishka' href="../../brand">Подробнее о бренде</a>
                         </div>
                     </div>
                     <div className="homeWm__line2">
 
+                    </div>
+                    <div className="homeWm__telephone">
+                        <div className="homeWm__tel">
+                                <span className='homeWm__telephone-span'><svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M1 1L15.5 15.5M15.5 1L1 15.5" stroke="black"/>
+</svg>
+</span>
+                            <h2 className='homeWm__tel-h2'>Заказать обратный звонок</h2>
+                            <div className="homeWm__tel-box">
+                                <p className='homeWm__tel-p'>Имя</p>
+                                <input className='homeWm__tel-input' type="text"/>
+                                <span className='homeWm__tel-span'><svg width="350" height="1" viewBox="0 0 350 1" fill="none" xmlns="http://www.w3.org/2000/svg">
+<line y1="0.5" x2="350" y2="0.5" stroke="black"/>
+</svg>
+</span>
+                                <p className='homeWm__tel-p'>E-mail</p>
+                                <input className='homeWm__tel-input' type="email"/>
+                                <span className='homeWm__tel-span'><svg width="350" height="1" viewBox="0 0 350 1" fill="none" xmlns="http://www.w3.org/2000/svg">
+<line y1="0.5" x2="350" y2="0.5" stroke="black"/>
+</svg>
+</span>
+                                <p className='homeWm__tel-p'>Телефон</p>
+                                <input className='homeWm__tel-input' type="number"/>
+                                <span className='homeWm__tel-span'><svg width="350" height="1" viewBox="0 0 350 1" fill="none" xmlns="http://www.w3.org/2000/svg">
+<line y1="0.5" x2="350" y2="0.5" stroke="black"/>
+</svg>
+</span>
+                            </div>
+                            <button className='homeWm__tel-btn'>Заказать звонок</button>
+                        </div>
+                    </div>
+                    <div className="homeWm__telOtlichno">
+                        <div className="homeWm__telOtlichno-box">
+                            <h1 className='homeWm__telOtlichno-h1'>Отлично! Мы скоро вам перезвоним.</h1>
+                            <button className='homeWm__telOtlichno-btn'>Закрыть</button>
+                        </div>
                     </div>
                 </div>
             </section>

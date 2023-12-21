@@ -1,4 +1,5 @@
 .home{
+  position: relative;
   &__line1{
     height: 210px;
   }
@@ -33,6 +34,8 @@
       letter-spacing: 0.4px;
     }
     &-btn{
+      text-decoration: none;
+      list-style: none;
       bottom: 24px;
       border-radius: 0;
       border: none;
@@ -48,6 +51,11 @@
       line-height: 138.9%; /* 23.613px */
       letter-spacing: 0.34px;
       position: absolute;
+      cursor: pointer;
+    }
+    &-btnA{
+      color: white;
+      text-decoration: none;
     }
     &-but{
       padding: 20px 75px;
@@ -132,6 +140,7 @@
     text-align: center;
   }
   &__btn{
+    cursor: pointer;
     color: var(--CTA, #6E9C9F);
     text-align: center;
     font-family: Raleway, sans-serif;
@@ -232,6 +241,7 @@
       padding: 33px 0 ;
     }
     &-pishka{
+      text-decoration: none;
       cursor: pointer;
       color: var(--CTA, #6E9C9F);
       font-family: Raleway, sans-serif;
@@ -263,5 +273,118 @@
       padding: 0 10px;
     }
   }
-
+  &__telephone{
+    box-shadow: rgba(10, 10, 10, 10) 0 3px 8px;
+    z-index: 4;
+    top: 70px;
+    right: 430px;
+    display: none;
+    position: fixed;
+    max-height: 503px;
+    width: 491px;
+    &-span{
+      padding: 3px 3px 0;
+      right: 30px;
+      top: 30px;
+      position: absolute;
+    }
+    &-span:hover{
+      background: white;
+      box-shadow: rgba(0.90, 0.90, 0.90, 0.90) 0 3px 8px;
+    }
+  }
+  &__tel{
+    position: relative;
+    padding: 70px;
+    background: white;
+    &-span{
+      margin-top: -15px;
+      display: block;
+    }
+    &-input{
+      padding-left: 10px;
+      border: none;
+      border-radius: 0;
+      width: 350px;
+      height: 40px;
+    }
+    &-p{
+      padding: 35px 0 1px;
+      color: #868686;
+      font-family: Raleway, sans-serif;
+      font-size: 17px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: 140%; /* 23.8px */
+      letter-spacing: 0.34px;
+    }
+    &-h2{
+      text-align: center;
+      color: #000;
+      font-family: Raleway, sans-serif;
+      font-size: 25px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: 140%; /* 35px */
+      letter-spacing: 0.5px;
+    }
+    &-btn{
+      border-radius: 0;
+      border: none;
+      margin-top: 35px;
+      padding: 22px 107px;
+      color: #FFF;
+      text-align: center;
+      font-family: Raleway, sans-serif;
+      background: #6E9C9F;
+      font-size: 17px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 138.9%; /* 23.613px */
+      letter-spacing: 0.34px;
+    }
+  }
+  &__telOtlichno{
+    z-index: 4;
+    top: 170px;
+    right: 430px;
+    display: none;
+    position: fixed;
+    box-shadow: rgba(10, 10, 10, 10) 0 3px 8px;
+    text-align: center;
+    width: 600px;
+    height: 278px;
+    &-box{
+      background: white;
+      padding: 70px;
+    }
+    &-h1{
+      color: #000;
+      font-family: Raleway, sans-serif;
+      font-size: 25px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: 140%; /* 35px */
+      letter-spacing: 0.5px;
+      padding-bottom: 35px;
+    }
+    &-btn{
+      background: white;
+      border: #6E9C9F solid 1px;
+      border-radius: 0;
+      padding: 22px 50px;
+      color: var(--CTA, #6E9C9F);
+      text-align: center;
+      font-family: Raleway, sans-serif;
+      font-size: 17px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 138.9%; /* 23.613px */
+      letter-spacing: 0.34px;
+    }
+    &-btn:hover{
+      background: #6E9C9F;
+      color: white;
+    }
+  }
 }
