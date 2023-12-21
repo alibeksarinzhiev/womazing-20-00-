@@ -4,10 +4,20 @@ import style from '../../style/header.scss'
 const Header = () => {
 
 
-        const [modal,setModal] = useState(false)
-
+        const [modal,setModal] = useState(true)
+        const handleNotModal = ()=>{
+            setModal(!modal)
+        }
     const handleModal = ()=>{
-        setModal(!set)
+        setModal(!modal)
+    }
+    const [tel,setTel] = useState(true)
+    const handleNoTel = ()=>{
+            handleNotModal()
+            setTel(!tel)
+    }
+    const NotHandleNoTel = ()=>{
+            setTel(!tel)
     }
 
 
@@ -61,9 +71,9 @@ const Header = () => {
                     </svg>
                     </a>
                 </div>
-            <div className=${modal?'homeWm__telephone':'homeWm__telephoneNot'}>
+            <div className={`${modal?'homeWm__telephone':'homeWm__telephoneNot'}`}>
                 <div className="homeWm__tel">
-                                <span className='homeWm__telephone-span'><svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <span onClick={handleNotModal} className='homeWm__telephone-span'><svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
 <path d="M1 1L15.5 15.5M15.5 1L1 15.5" stroke="black"/>
 </svg>
 </span>
@@ -88,13 +98,13 @@ const Header = () => {
 </svg>
 </span>
                     </div>
-                    <button className='homeWm__tel-btn'>Заказать звонок</button>
+                    <button onClick={handleNoTel} className='homeWm__tel-btn'>Заказать звонок</button>
                 </div>
             </div>
-            <div className="homeWm__telOtlichno">
+            <div className={`${tel?'homeWm__telOtlichno':'homeWm__telNeOtlichno'}`}>
                 <div className="homeWm__telOtlichno-box">
                     <h1 className='homeWm__telOtlichno-h1'>Отлично! Мы скоро вам перезвоним.</h1>
-                    <button className='homeWm__telOtlichno-btn'>Закрыть</button>
+                    <button onClick={NotHandleNoTel} className='homeWm__telOtlichno-btn'>Закрыть</button>
                 </div>
             </div>
         </header>
