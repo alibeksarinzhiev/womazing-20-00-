@@ -273,6 +273,16 @@
       padding: 0 10px;
     }
   }
+  &__telephoneNot{
+    box-shadow: rgba(10, 10, 10, 10) 0 3px 8px;
+    z-index: 4;
+    top: 70px;
+    right: 430px;
+    display: block;
+    position: fixed;
+    max-height: 503px;
+    width: 491px;
+  }
   &__telephone{
     box-shadow: rgba(10, 10, 10, 10) 0 3px 8px;
     z-index: 4;

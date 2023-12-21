@@ -4,7 +4,11 @@ import style from '../../style/header.scss'
 const Header = () => {
 
 
+        const [modal,setModal] = useState(false)
 
+    const handleModal = ()=>{
+        setModal(!set)
+    }
 
 
 
@@ -29,7 +33,7 @@ const Header = () => {
                 <li className="header__li"><a className="header__a" href="../../contacts">Контакты</a></li>
             </ul>
                 <div className="header__all">
-                    <h3  className="header__tel"><svg width="17" height="17" viewBox="0 0 17 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <h3 onClick={handleModal}  className="header__tel"><svg width="17" height="17" viewBox="0 0 17 17" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <g clip-path="url(#clip0_52820_564)">
                             <path d="M2.25235 4.81643C0.750523 6.31823 0.750523 8.7618 2.25232 10.2636L3.05001 9.46592C1.9881 8.40402 1.98807 6.67613 3.05004 5.61417C4.11197 4.55224 5.83985 4.55224 6.90179 5.61414L7.69947 4.81646C6.1977 3.31463 3.75412 3.31466 2.25235 4.81643Z" fill="#6E9C9F"/>
                             <path d="M3.84133 6.39119C3.20916 7.02336 3.20913 8.05201 3.8413 8.68421L4.63901 7.88653C4.54584 7.79335 4.49453 7.66947 4.49453 7.53772C4.49453 7.40599 4.54587 7.2821 4.63904 7.18893C4.73221 7.09576 4.8561 7.04444 4.98782 7.04444C5.11958 7.04444 5.24349 7.09576 5.33664 7.18893L6.13432 6.39122C5.50215 5.75902 4.4735 5.75902 3.84133 6.39119Z" fill="#6E9C9F"/>
@@ -43,7 +47,7 @@ const Header = () => {
                     </svg>
 
                         +7 (495) 823-54-12</h3>
-                    <h4 className="Header__mag"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <a href='../../cart' className="Header__mag">=<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <g clip-path="url(#clip0_52823_293)">
                             <path d="M23.8454 8.2243C23.7281 8.10906 23.5642 8.05442 23.4012 8.07624H17.0343V5.26295C17.0343 2.4826 14.7804 0.228699 12.0001 0.228699C9.21971 0.228699 6.96582 2.4826 6.96582 5.26295V8.07624H0.598861C0.421164 8.07624 0.243523 8.07624 0.154646 8.2243C0.0352739 8.33902 -0.0201042 8.5051 0.00659291 8.66851L2.22761 20.81C2.53789 22.5037 4.00034 23.7431 5.72199 23.7713H18.278C20.0046 23.7289 21.464 22.4797 21.7724 20.7804L23.9934 8.66851C24.0201 8.5051 23.9648 8.33902 23.8454 8.2243ZM8.1503 5.26295C8.1503 3.13682 9.87388 1.41324 12 1.41324C14.1261 1.41324 15.8497 3.13682 15.8497 5.26295V8.07624H8.1503V5.26295ZM20.5879 20.6323C20.3884 21.7547 19.4179 22.5759 18.278 22.5868H5.72199C4.58212 22.5759 3.61161 21.7547 3.41215 20.6323L1.30959 9.26078H22.6904L20.5879 20.6323Z" fill="black"/>
                             <path d="M16.4419 15.0354C16.769 15.0354 17.0341 14.7702 17.0341 14.4431V12.6663C17.0341 12.3392 16.769 12.074 16.4419 12.074C16.1148 12.074 15.8496 12.3392 15.8496 12.6663V14.4431C15.8496 14.7702 16.1148 15.0354 16.4419 15.0354Z" fill="black"/>
@@ -55,8 +59,44 @@ const Header = () => {
                             </clipPath>
                         </defs>
                     </svg>
-                    </h4>
+                    </a>
                 </div>
+            <div className=${modal?'homeWm__telephone':'homeWm__telephoneNot'}>
+                <div className="homeWm__tel">
+                                <span className='homeWm__telephone-span'><svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M1 1L15.5 15.5M15.5 1L1 15.5" stroke="black"/>
+</svg>
+</span>
+                    <h2 className='homeWm__tel-h2'>Заказать обратный звонок</h2>
+                    <div className="homeWm__tel-box">
+                        <p className='homeWm__tel-p'>Имя</p>
+                        <input className='homeWm__tel-input' type="text"/>
+                        <span className='homeWm__tel-span'><svg width="350" height="1" viewBox="0 0 350 1" fill="none" xmlns="http://www.w3.org/2000/svg">
+<line y1="0.5" x2="350" y2="0.5" stroke="black"/>
+</svg>
+</span>
+                        <p className='homeWm__tel-p'>E-mail</p>
+                        <input className='homeWm__tel-input' type="email"/>
+                        <span className='homeWm__tel-span'><svg width="350" height="1" viewBox="0 0 350 1" fill="none" xmlns="http://www.w3.org/2000/svg">
+<line y1="0.5" x2="350" y2="0.5" stroke="black"/>
+</svg>
+</span>
+                        <p className='homeWm__tel-p'>Телефон</p>
+                        <input className='homeWm__tel-input' type="number"/>
+                        <span className='homeWm__tel-span'><svg width="350" height="1" viewBox="0 0 350 1" fill="none" xmlns="http://www.w3.org/2000/svg">
+<line y1="0.5" x2="350" y2="0.5" stroke="black"/>
+</svg>
+</span>
+                    </div>
+                    <button className='homeWm__tel-btn'>Заказать звонок</button>
+                </div>
+            </div>
+            <div className="homeWm__telOtlichno">
+                <div className="homeWm__telOtlichno-box">
+                    <h1 className='homeWm__telOtlichno-h1'>Отлично! Мы скоро вам перезвоним.</h1>
+                    <button className='homeWm__telOtlichno-btn'>Закрыть</button>
+                </div>
+            </div>
         </header>
     );
 };
