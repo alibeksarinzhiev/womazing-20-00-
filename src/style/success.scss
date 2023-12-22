@@ -77,7 +77,13 @@
     line-height: 140%; /* 23.8px */
     letter-spacing: 0.34px;
   }
+  &__btn:hover{
+    transition: 0.25s;
+    background: #6E9C9F;
+    color: white;
+  }
   &__btn{
+    transition: 0.25s;
     color: var(--CTA, #6E9C9F);
     text-align: center;
     display: flex;
@@ -90,6 +96,12 @@
     line-height: 138.9%; /* 23.613px */
     letter-spacing: 0.34px;
     border: 1px solid var(--CTA, #6E9C9F);
+    background: white;
+    cursor: pointer;
+    &-a{
+      color: #6E9C9F;
+      text-decoration: none;
+    }
   }
 
 

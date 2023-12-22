@@ -140,6 +140,7 @@
     text-align: center;
   }
   &__btn{
+    transition: 0.25s;
     cursor: pointer;
     color: var(--CTA, #6E9C9F);
     text-align: center;

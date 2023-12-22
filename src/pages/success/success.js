@@ -35,7 +35,7 @@ const Success = () => {
                                 <h2 className="order__h2">Мы свяжемся с вами в ближайшее время!</h2>
                             </div>
                         </div>
-                        <button className="order__btn">Перейти на главную</button>
+                        <a className='order__btn-a' href="../"><button className="order__btn">Перейти на главную</button></a>
                     </div>
                 </div>
             </section>

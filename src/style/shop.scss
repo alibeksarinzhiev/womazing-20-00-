@@ -53,6 +53,7 @@
     justify-content: space-between;
   }
   &__btn{
+    transition: 0.50s;
     width: 19%;
     height: 50px;
     color: #000;
@@ -69,6 +70,7 @@
     cursor: pointer;
   }
   &__btn:hover{
+    transition: 0.50s;
     background: black;
     color: white;
   }
