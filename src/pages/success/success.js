@@ -35,7 +35,11 @@ const Success = () => {
                                 <h2 className="order__h2">Мы свяжемся с вами в ближайшее время!</h2>
                             </div>
                         </div>
+<<<<<<< HEAD
                         <button className="order__btn">Перейти на главную</button>
+=======
+                        <a className='order__btn-a' href="../"><button className="order__btn">Перейти на главную</button></a>
+>>>>>>> c47111f4b197af1d2e1cc7ed48421360f16a89da
                     </div>
                 </div>
             </section>

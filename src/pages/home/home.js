@@ -183,7 +183,11 @@ const Home = () => {
                         </div>
                     </div>
                     <div className="homeWm__line2">
+<<<<<<< HEAD
 
+=======
+                        
+>>>>>>> c47111f4b197af1d2e1cc7ed48421360f16a89da
                     </div>
                 </div>
             </section>

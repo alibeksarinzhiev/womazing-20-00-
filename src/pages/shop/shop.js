@@ -31,7 +31,11 @@ const Shop = () => {
                     <div className="ShopNav__box">
                         <button className='ShopNav__btn'>Все</button>
                         <button className='ShopNav__btn'>Пальто</button>
+<<<<<<< HEAD
                         <button className='ShopNav__btn'>Свитшоты</button>
+=======
+                        <a className='ShopNav__btnn-a' href="../../item"><button className='ShopNav__btnn'>Свитшоты</button></a>
+>>>>>>> c47111f4b197af1d2e1cc7ed48421360f16a89da
                         <button className='ShopNav__btn'>Кардиганы</button>
                         <button className='ShopNav__btn'>Толстовки</button>
                     </div>

@@ -53,6 +53,10 @@
     justify-content: space-between;
   }
   &__btn{
+<<<<<<< HEAD
+=======
+    transition: 0.50s;
+>>>>>>> c47111f4b197af1d2e1cc7ed48421360f16a89da
     width: 19%;
     height: 50px;
     color: #000;
@@ -68,10 +72,41 @@
     border: black solid 1px;
     cursor: pointer;
   }
+<<<<<<< HEAD
   &__btn:hover{
     background: black;
     color: white;
   }
+=======
+  &__btnn{
+    transition: 0.50s;
+    width: 228px;
+    height: 50px;
+    color: #000;
+    font-family: Raleway, sans-serif;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 140%; /* 23.8px */
+    letter-spacing: 0.34px;
+    background: white;
+    border-radius: 1px;
+    align-items: center;
+    border: black solid 1px;
+    cursor: pointer;
+  }
+  &__btn:hover{
+    transition: 0.50s;
+    background: black;
+    color: white;
+  }
+  &__btnn:hover{
+    transition: 0.50s;
+    background: black;
+    color: white;
+  }
+
+>>>>>>> c47111f4b197af1d2e1cc7ed48421360f16a89da
   &__pishka{
     color: #808080;
     font-family: Raleway, sans-serif;
