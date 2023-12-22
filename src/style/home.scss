@@ -391,6 +391,7 @@
       padding-bottom: 35px;
     }
     &-btn{
+      transition: 0.25s;
       background: white;
       border: #6E9C9F solid 1px;
       border-radius: 0;
@@ -405,6 +406,7 @@
       letter-spacing: 0.34px;
     }
     &-btn:hover{
+      transition: 0.25s;
       background: #6E9C9F;
       color: white;
     }
