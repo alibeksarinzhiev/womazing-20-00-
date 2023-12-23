@@ -4,10 +4,10 @@ import style from '../../style/header.scss'
 const Header = () => {
 
 
-        const [modal,setModal] = useState(false)
+        const [modal,setModal] = useState(true)
 
     const handleModal = ()=>{
-        setModal(!set)
+        setModal(!modal)
     }
 
 
@@ -61,7 +61,7 @@ const Header = () => {
                     </svg>
                     </a>
                 </div>
-            <div className=${modal?'homeWm__telephone':'homeWm__telephoneNot'}>
+            <div className={`${modal?'homeWm__telephone':'homeWm__telephoneNot'}`}>
                 <div className="homeWm__tel">
                                 <span className='homeWm__telephone-span'><svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
 <path d="M1 1L15.5 15.5M15.5 1L1 15.5" stroke="black"/>
