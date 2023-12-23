@@ -32,6 +32,7 @@ const Shop = () => {
                         <button className='ShopNav__btn'>Все</button>
                         <button className='ShopNav__btn'>Пальто</button>
                         <button className='ShopNav__btn'>Свитшоты</button>
+                        <a className='ShopNav__btnn-a' href="../../item"><button className='ShopNav__btnn'>Свитшоты</button></a>
                         <button className='ShopNav__btn'>Кардиганы</button>
                         <button className='ShopNav__btn'>Толстовки</button>
                     </div>

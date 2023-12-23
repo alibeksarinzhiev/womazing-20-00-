@@ -1,5 +1,5 @@
 import React from 'react';
-import style from '../../style/success.scss'
+
 const Success = () => {
     return (
         <div>
@@ -36,6 +36,8 @@ const Success = () => {
                             </div>
                         </div>
                         <button className="order__btn">Перейти на главную</button>
+
+                        <a className='order__btn-a' href="../"><button className="order__btn">Перейти на главную</button></a>
                     </div>
                 </div>
             </section>
