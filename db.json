@@ -1,0 +1,174 @@
+{
+  "clothes": [
+    {
+      "id": 1,
+      "title":"",
+      "image": "src/img/img_bk/coat/coat_gray1.jpg",
+      "price": 199,
+      "size": "XS S M L XL XXL",
+      "description": "Удлинённое пальто прямого фасона. Зимний вариант, внутри основа и рукава с утеплителем slimtex 100. Плечи с подплечниками. Кармашки, внутри на флисе. Базовый цвет, который идеально сочетаются с большинством вещей.",
+      "category": "Пальто",
+      "quantity":1
+    },
+    {
+      "id": 2,
+      "title":"Канадский свитшот",
+      "image": "src/img/img_bk/sweatshirt/sweatshirt_green1.jpg",
+      "price": 119,
+      "size": "XS S M L XL",
+      "description": "Объёмный свитшот на флисе. Снизу на кулиске, удобно регулировать. Манжет на резинке. Молния расстегивается. К бежевому цвету возможно приобрести джогеры в комплект.",
+      "category": "Свитшоты",
+      "quantity": 1
+    },
+    {
+      "id": 3,
+      "title":"",
+      "image": "src/img/img_bk/cardigan/cardigan_green1.jpeg",
+      "price": 139,
+      "size": "XS S M L XL",
+      "description": "",
+      "category": "Кардиганы",
+      "quantity": 1
+    },
+    {
+      "id": 4,
+      "title":"",
+      "image": "src/img/img_bk/hoodie/hoodie_blue1.jpeg",
+      "price": 159,
+      "size": "S M L XL XXL",
+      "description": "",
+      "category": "Толстовки",
+      "quantity":1
+    },
+    {
+      "id": 5,
+      "title":"",
+      "image": "src/img/img_bk/coat/coat_black2.jpg",
+      "price": 189,
+      "size": "XS S M L XL XXL",
+      "description": "Удлинённое пальто прямого фасона. Зимний вариант, внутри основа и рукава с утеплителем slimtex 100. Плечи с подплечниками. Кармашки, внутри на флисе. Базовый цвет, который идеально сочетаются с большинством вещей.",
+      "category": "Пальто",
+      "quantity":1
+    },
+    {
+      "id": 6,
+      "title":"Канадский свитшот",
+      "image": "src/img/img_bk/sweatshirt/sweatshirt_pink2.jpg",
+      "price": 129,
+      "size": "XS S M L XL",
+      "description": "Объёмный свитшот на флисе. Снизу на кулиске, удобно регулировать. Манжет на резинке. Молния расстегивается. К бежевому цвету возможно приобрести джогеры в комплект.",
+      "category": "Свитшоты",
+      "quantity": 1
+    },
+    {
+      "id": 7,
+      "title":"",
+      "image": "src/img/img_bk/cardigan/cardigan_yellow2.jpg",
+      "price": 179,
+      "size": "XS S M L XL",
+      "description": "",
+      "category": "Кардиганы",
+      "quantity": 1
+    },
+    {
+      "id": 8,
+      "title":"",
+      "image": "src/img/img_bk/hoodie/hoodie_green2.jpeg",
+      "price": 149,
+      "size": "S M L XL XXL",
+      "description": "",
+      "category": "Толстовки",
+      "quantity":1
+    },
+    {
+      "id": 9,
+      "title":"",
+      "image": "src/img/img_bk/coat/coat_brown3.jpg",
+      "price": 219,
+      "size": "XS S M L XL XXL",
+      "description": "Удлинённое пальто прямого фасона. Зимний вариант, внутри основа и рукава с утеплителем slimtex 100. Плечи с подплечниками. Кармашки, внутри на флисе. Базовый цвет, который идеально сочетаются с большинством вещей.",
+      "category": "Пальто",
+      "quantity":1
+    },
+    {
+      "id": 10,
+      "title":"Канадский свитшот",
+      "image": "src/img/img_bk/sweatshirt/sweatshirt_white3.jpg",
+      "price": 125,
+      "size": "XS S M L XL",
+      "description": "Объёмный свитшот на флисе. Снизу на кулиске, удобно регулировать. Манжет на резинке. Молния расстегивается. К бежевому цвету возможно приобрести джогеры в комплект.",
+      "category": "Свитшоты",
+      "quantity": 1
+    },
+    {
+      "id": 11,
+      "title":"",
+      "image": "src/img/img_bk/cardigan/cardigan_pink3.jpg",
+      "price": 99,
+      "size": "XS S M L XL",
+      "description": "",
+      "category": "Кардиганы",
+      "quantity": 1
+    },
+    {
+      "id": 12,
+      "title":"",
+      "image": "src/img/img_bk/hoodie/hoodie_black3.jpeg",
+      "price": 109,
+      "size": "S M L XL XXL",
+      "description": "",
+      "category": "Толстовки",
+      "quantity":1
+    },
+    {
+      "id": 13,
+      "title":"",
+      "image": "src/img/img_bk/coat/coat_yellow4.jpg",
+      "price": 209,
+      "size": "XS S M L XL XXL",
+      "description": "Удлинённое пальто прямого фасона. Зимний вариант, внутри основа и рукава с утеплителем slimtex 100. Плечи с подплечниками. Кармашки, внутри на флисе. Базовый цвет, который идеально сочетаются с большинством вещей.",
+      "category": "Пальто",
+      "quantity":1
+    },
+    {
+      "id": 14,
+      "title":"Канадский свитшот",
+      "image": "src/img/img_bk/sweatshirt/sweatshirt_red4.jpg",
+      "price": 119,
+      "size": "XS S M L XL",
+      "description": "Объёмный свитшот на флисе. Снизу на кулиске, удобно регулировать. Манжет на резинке. Молния расстегивается. К бежевому цвету возможно приобрести джогеры в комплект.",
+      "category": "Свитшоты",
+      "quantity": 1
+    },
+    {
+      "id": 15,
+      "title":"",
+      "image": "src/img/img_bk/cardigan/cardigan_pink3.jpg",
+      "price": 109,
+      "size": "XS S M L XL",
+      "description": "",
+      "category": "Кардиганы",
+      "quantity": 1
+    },
+    {
+      "id": 16,
+      "title":"",
+      "image": "src/img/img_bk/hoodie/hoodie_violet4.jpeg",
+      "price": 189,
+      "size": "S M L XL XXL",
+      "description": "",
+      "category": "Толстовки",
+      "quantity":1
+    }
+  ],
+  "users": [
+    {
+      "email": "nurtai@gmail.com",
+      "password": "$2a$10$zTcIJbRAMBxy76ZVjeBbMu55d6u4FNadCfpS.FmCUsxOwERdrZkG",
+      "name": "Nurtai",
+      "surname": "Asylbekov",
+      "phone": "77777777",
+      "id": 1
+    }
+  ]
+}

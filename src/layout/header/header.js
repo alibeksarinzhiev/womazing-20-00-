@@ -19,8 +19,6 @@ const Header = () => {
     const NotHandleNoTel = ()=>{
             setTel(!tel)
     }
-<<<<<<< HEAD
-=======
     const [SpTel,setSpTel] = useState(true)
     const handleSpTel = ()=>{
             setSpTel(!SpTel)
@@ -28,7 +26,6 @@ const Header = () => {
     const handleNotSpTel = ()=>{
             setSpTel(!SpTel)
     }
->>>>>>> c47111f4b197af1d2e1cc7ed48421360f16a89da
 
 
 
@@ -53,11 +50,10 @@ const Header = () => {
                 <li className="header__li"><a className="header__a" href="../../contacts">Контакты</a></li>
             </ul>
                 <div className="header__all">
-<<<<<<< HEAD
                     <h3 onClick={handleModal}  className="header__tel"><svg width="17" height="17" viewBox="0 0 17 17" fill="none" xmlns="http://www.w3.org/2000/svg">
-=======
+
                     <h3 onClick={handleModal}  className='header__tel'><svg width="17" height="17" viewBox="0 0 17 17" fill="none" xmlns="http://www.w3.org/2000/svg">
->>>>>>> c47111f4b197af1d2e1cc7ed48421360f16a89da
+
                         <g clip-path="url(#clip0_52820_564)">
                             <path d="M2.25235 4.81643C0.750523 6.31823 0.750523 8.7618 2.25232 10.2636L3.05001 9.46592C1.9881 8.40402 1.98807 6.67613 3.05004 5.61417C4.11197 4.55224 5.83985 4.55224 6.90179 5.61414L7.69947 4.81646C6.1977 3.31463 3.75412 3.31466 2.25235 4.81643Z" fill="#6E9C9F"/>
                             <path d="M3.84133 6.39119C3.20916 7.02336 3.20913 8.05201 3.8413 8.68421L4.63901 7.88653C4.54584 7.79335 4.49453 7.66947 4.49453 7.53772C4.49453 7.40599 4.54587 7.2821 4.63904 7.18893C4.73221 7.09576 4.8561 7.04444 4.98782 7.04444C5.11958 7.04444 5.24349 7.09576 5.33664 7.18893L6.13432 6.39122C5.50215 5.75902 4.4735 5.75902 3.84133 6.39119Z" fill="#6E9C9F"/>
