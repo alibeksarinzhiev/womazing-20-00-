@@ -1,4 +1,4 @@
-import React, {useState} from 'react';
+import React, {useContext, useState} from 'react';
 import homeImg1 from "../../img/dmitriy-7DD6tfTKqS4-unsplash 1.png"
 import homeImg2 from "../../img/ionut-comanici-RDcEWH5hSDE-unsplash 1.png"
 import homeImg3 from "../../img/allef-vinicius-YG97wpX0OEg-unsplash 1.png"
@@ -10,8 +10,10 @@ import homeQuaIcon1 from "../../img/quality 1.png"
 import homeQuaIcon2 from "../../img/mdi-light_cog.png"
 import homeQuaIcon3 from "../../img/hand 1.png"
 import homeWmImg from "../../img/adam-winger-fI-TKWjKYls-unsplash 1.png"
+import {CustomContext} from "../../context";
 
 const Home = () => {
+    const {clothes,setClothes} = useContext(CustomContext)
 
 
 
