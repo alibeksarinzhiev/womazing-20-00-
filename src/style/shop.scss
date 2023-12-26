@@ -11,7 +11,7 @@
     font-size: 55px;
     font-style: normal;
     font-weight: 500;
-    line-height: 110%; /* 60.5px */
+    line-height: 110%;
     letter-spacing: 1.1px;
   }
   &__box{
@@ -28,7 +28,7 @@
     font-size: 17px;
     font-style: normal;
     font-weight: 500;
-    line-height: 140%; /* 23.8px */
+    line-height: 140%;
     letter-spacing: 0.34px;
   }
   &__pishka2{
@@ -37,7 +37,7 @@
     font-size: 17px;
     font-style: normal;
     font-weight: 500;
-    line-height: 140%; /* 23.8px */
+    line-height: 140%;
     letter-spacing: 0.34px;
   }
 }
@@ -62,7 +62,7 @@
     font-size: 17px;
     font-style: normal;
     font-weight: 500;
-    line-height: 140%; /* 23.8px */
+    line-height: 140%;
     letter-spacing: 0.34px;
     background: white;
     border-radius: 1px;
@@ -122,6 +122,10 @@
   }
   &__product{
     text-align: center;
+    &-img{
+      height: 478px;
+      width: 350px;
+    }
     &-name{
       padding: 24px 0 10px;
       color: #000;

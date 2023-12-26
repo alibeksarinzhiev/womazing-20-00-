@@ -2,7 +2,7 @@
   "clothes": [
     {
       "id": 1,
-      "title":"",
+      "title":"Лучшее пальто",
       "image": "src/img/img_bk/coat/coat_gray1.jpg",
       "price": 199,
       "size": "XS S M L XL XXL",
@@ -12,7 +12,7 @@
     },
     {
       "id": 2,
-      "title":"Канадский свитшот",
+      "title":"Французский свитшот",
       "image": "src/img/img_bk/sweatshirt/sweatshirt_green1.jpg",
       "price": 119,
       "size": "XS S M L XL",
@@ -22,17 +22,17 @@
     },
     {
       "id": 3,
-      "title":"",
+      "title":"Европейски кардиган",
       "image": "src/img/img_bk/cardigan/cardigan_green1.jpeg",
       "price": 139,
       "size": "XS S M L XL",
-      "description": "",
+      "description": "Изделие идеально комплектуется как с луками для школы и института или работы, так и с аутфитами для прогулок и отдыха.",
       "category": "Кардиганы",
       "quantity": 1
     },
     {
       "id": 4,
-      "title":"",
+      "title":"Ярко-синяя толстовка",
       "image": "src/img/img_bk/hoodie/hoodie_blue1.jpeg",
       "price": 159,
       "size": "S M L XL XXL",
@@ -42,11 +42,11 @@
     },
     {
       "id": 5,
-      "title":"",
+      "title":"Английское пальто",
       "image": "src/img/img_bk/coat/coat_black2.jpg",
       "price": 189,
       "size": "XS S M L XL XXL",
-      "description": "Удлинённое пальто прямого фасона. Зимний вариант, внутри основа и рукава с утеплителем slimtex 100. Плечи с подплечниками. Кармашки, внутри на флисе. Базовый цвет, который идеально сочетаются с большинством вещей.",
+      "description": "Женское пальто с английским воротником для весенне-осеннего периода. Модель посвящается всем поклонницам благородного классического стиля.",
       "category": "Пальто",
       "quantity":1
     },
@@ -56,23 +56,23 @@
       "image": "src/img/img_bk/sweatshirt/sweatshirt_pink2.jpg",
       "price": 129,
       "size": "XS S M L XL",
-      "description": "Объёмный свитшот на флисе. Снизу на кулиске, удобно регулировать. Манжет на резинке. Молния расстегивается. К бежевому цвету возможно приобрести джогеры в комплект.",
+      "description": "Свитшот из органического хлопка – часть нашей новой легкой коллекции. Модель со стильным воротником на молнии.",
       "category": "Свитшоты",
       "quantity": 1
     },
     {
       "id": 7,
-      "title":"",
+      "title":"Жёлтый кардиган",
       "image": "src/img/img_bk/cardigan/cardigan_yellow2.jpg",
       "price": 179,
       "size": "XS S M L XL",
-      "description": "",
+      "description": " Фасон кардигана !Бель!позволяет носить его с чем угодно: с юбкой, платьем, классическими брюками или рваными джинсами.   Кардиган !Бель! выполнен из пряжи высокого качества.",
       "category": "Кардиганы",
       "quantity": 1
     },
     {
       "id": 8,
-      "title":"",
+      "title":"Зеленая толстовка",
       "image": "src/img/img_bk/hoodie/hoodie_green2.jpeg",
       "price": 149,
       "size": "S M L XL XXL",
@@ -82,17 +82,17 @@
     },
     {
       "id": 9,
-      "title":"",
+      "title":"Российское пальто",
       "image": "src/img/img_bk/coat/coat_brown3.jpg",
       "price": 219,
       "size": "XS S M L XL XXL",
-      "description": "Удлинённое пальто прямого фасона. Зимний вариант, внутри основа и рукава с утеплителем slimtex 100. Плечи с подплечниками. Кармашки, внутри на флисе. Базовый цвет, который идеально сочетаются с большинством вещей.",
+      "description": " Добротная ткань в елочку на четверть состоит из шерсти, которая дополнена вискозой и эластаном. Классический прямой фасон длиной до колен. На талии длинный пояс.",
       "category": "Пальто",
       "quantity":1
     },
     {
       "id": 10,
-      "title":"Канадский свитшот",
+      "title":"Американский свитшот",
       "image": "src/img/img_bk/sweatshirt/sweatshirt_white3.jpg",
       "price": 125,
       "size": "XS S M L XL",
@@ -102,17 +102,17 @@
     },
     {
       "id": 11,
-      "title":"",
+      "title":"Миленький кардиган",
       "image": "src/img/img_bk/cardigan/cardigan_pink3.jpg",
       "price": 99,
       "size": "XS S M L XL",
-      "description": "",
+      "description": "Элегантный кардиган без застежки и практичными карманами просто необходим. Он изготовлен из 100% органического хлопка, поэтому вы можете выглядеть на все сто и знать, что делаете все возможное.",
       "category": "Кардиганы",
       "quantity": 1
     },
     {
       "id": 12,
-      "title":"",
+      "title":"Немецкая толстовка",
       "image": "src/img/img_bk/hoodie/hoodie_black3.jpeg",
       "price": 109,
       "size": "S M L XL XXL",
@@ -122,11 +122,11 @@
     },
     {
       "id": 13,
-      "title":"",
+      "title":"Турецкое пальто",
       "image": "src/img/img_bk/coat/coat_yellow4.jpg",
       "price": 209,
       "size": "XS S M L XL XXL",
-      "description": "Удлинённое пальто прямого фасона. Зимний вариант, внутри основа и рукава с утеплителем slimtex 100. Плечи с подплечниками. Кармашки, внутри на флисе. Базовый цвет, который идеально сочетаются с большинством вещей.",
+      "description": "Женское кашемировое пальто для весны самого подходящего для этого сезона салатового цвета. Пальто насыщенного яркого цвета уже одним своим видом способно поднять настроение.",
       "category": "Пальто",
       "quantity":1
     },
@@ -142,17 +142,17 @@
     },
     {
       "id": 15,
-      "title":"",
+      "title":"Лёгкий кардиган",
       "image": "src/img/img_bk/cardigan/cardigan_pink3.jpg",
       "price": 109,
       "size": "XS S M L XL",
-      "description": "",
+      "description": "Кардиган вязаный оверсайз короткий с карманами розовый который будет идеально смотреться на вас.",
       "category": "Кардиганы",
       "quantity": 1
     },
     {
       "id": 16,
-      "title":"",
+      "title":"Американская толстовка",
       "image": "src/img/img_bk/hoodie/hoodie_violet4.jpeg",
       "price": 189,
       "size": "S M L XL XXL",

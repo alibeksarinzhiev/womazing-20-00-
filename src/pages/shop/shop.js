@@ -15,7 +15,8 @@ const Shop = () => {
                         <h2 className='magazine__title'>Магазин</h2>
                     <div className="magazine__box">
                         <p className='magazine__pishka1'>Главная</p>
-                        <span className='magazine__box-span'><svg width="14" height="3" viewBox="0 0 14 3" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <span className='magazine__box-span'>
+                            <svg width="14" height="3" viewBox="0 0 14 3" fill="none" xmlns="http://www.w3.org/2000/svg">
 <path d="M0.0880001 2.039V0.679H13.399V2.039H0.0880001Z" fill="black"/>
 </svg>
 </span>
@@ -32,7 +33,6 @@ const Shop = () => {
                         <button className='ShopNav__btn'>Все</button>
                         <button className='ShopNav__btn'>Пальто</button>
                         <button className='ShopNav__btn'>Свитшоты</button>
-                        <a className='ShopNav__btnn-a' href="../../item"><button className='ShopNav__btnn'>Свитшоты</button></a>
                         <button className='ShopNav__btn'>Кардиганы</button>
                         <button className='ShopNav__btn'>Толстовки</button>
                     </div>
