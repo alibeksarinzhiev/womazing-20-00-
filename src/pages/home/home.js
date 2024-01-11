@@ -184,6 +184,9 @@ const Home = () => {
                             <a className='homeWm__box-pishka' href="../../brand">Подробнее о бренде</a>
                         </div>
                     </div>
+                    <div className="homeWm__line2">
+
+                    </div>
                 </div>
             </section>
         </div>
