@@ -145,6 +145,7 @@
     align-items: center;
     padding: 99px 0 0 0;
   }
+
   &__title{
     display: flex;
     column-gap: 16px;
@@ -206,6 +207,7 @@
           letter-spacing: 0.4px;
           padding-left: 170px;
         }
+
       }
 
       &__product {
@@ -366,7 +368,22 @@
       }
 
       .result {
-
+        &__btn0 {
+          border-radius: 0;
+          border: none;
+          padding: 16px 51px 17px 31px;
+          align-items: flex-start;
+          gap: 69px;
+          background: #F1EADC;
+          color: #000;
+          font-family: Raleway, sans-serif;
+          font-size: 25px;
+          font-style: normal;
+          font-weight: 500;
+          line-height: 140%;
+          letter-spacing: 0.5px;
+          display: flex;
+        }
         &__all {
           display: flex;
           column-gap: 15px;
@@ -541,4 +558,7 @@
       }
     }
   }
+}
+.result__line0{
+  height: 120px;
 }

@@ -171,7 +171,6 @@ const Checkout = () => {
                     </div>
                 </div>
             </section>
->>>>>>> c47111f4b197af1d2e1cc7ed48421360f16a89da
         </div>
     );
 };

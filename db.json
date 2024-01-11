@@ -159,6 +159,76 @@
       "description": "",
       "category": "Толстовки",
       "quantity":1
+    },
+    {
+      "id": 17,
+      "title":"Американский кардиган",
+      "image": "src/img/img_bk/hoodie/hoodie_violet4.jpeg",
+      "price": 189,
+      "size": "S M L XL XXL",
+      "description": "",
+      "category": "Кардиганы",
+      "quantity":1
+    },
+    {
+      "id": 18,
+      "title":"Американский свитшот",
+      "image": "src/img/img_bk/hoodie/hoodie_violet4.jpeg",
+      "price": 189,
+      "size": "S M L XL XXL",
+      "description": "",
+      "category": "Свитшоты",
+      "quantity":1
+    },
+    {
+      "id": 19,
+      "title":"Американское пальто",
+      "image": "src/img/img_bk/hoodie/hoodie_violet4.jpeg",
+      "price": 189,
+      "size": "S M L XL XXL",
+      "description": "",
+      "category": "Пальто",
+      "quantity":1
+    },
+    {
+      "id": 20,
+      "title":"Обычный кардиган",
+      "image": "src/img/img_bk/hoodie/hoodie_violet4.jpeg",
+      "price": 189,
+      "size": "S M L XL XXL",
+      "description": "",
+      "category": "Кардиганы",
+      "quantity":1
+    },
+    {
+      "id": 21,
+      "title":"Лучшая толстовка",
+      "image": "src/img/img_bk/hoodie/hoodie_violet4.jpeg",
+      "price": 189,
+      "size": "S M L XL XXL",
+      "description": "",
+      "category": "Толстовки",
+      "quantity":1
+    },
+    {
+      "id": 22,
+      "title":"Лучший свитшот",
+      "image": "src/img/img_bk/hoodie/hoodie_violet4.jpeg",
+      "price": 189,
+      "size": "S M L XL XXL",
+      "description": "",
+      "category": "Свитшоты",
+      "quantity":1
+    },
+    {
+      "id": 23,
+      "title":"Лучшее пальто",
+      "image": "src/img/img_bk/hoodie/hoodie_violet4.jpeg",
+      "price": 189,
+      "size": "S M L XL XXL",
+      "description": "",
+      "category": "Пальто",
+      "quantity":1
     }
   ],
   "users": [
